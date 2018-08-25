@@ -1,0 +1,6 @@
+framework module Pods_XiaoYuKit_Tests {
+  umbrella header "Pods-XiaoYuKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

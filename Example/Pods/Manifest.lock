@@ -1,0 +1,16 @@
+PODS:
+  - XiaoYuKit (0.1.0)
+
+DEPENDENCIES:
+  - XiaoYuKit (from `../`)
+
+EXTERNAL SOURCES:
+  XiaoYuKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XiaoYuKit: d09988baa66520979898211a5c984f34c99195f4
+
+PODFILE CHECKSUM: c8f6f7428e897ebd15610f8d7763b2d00d9f379b
+
+COCOAPODS: 1.4.0
