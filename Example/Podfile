@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XiaoYuKit_Example' do
+  pod 'XiaoYuKit', :path => '../'
+
+  target 'XiaoYuKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
