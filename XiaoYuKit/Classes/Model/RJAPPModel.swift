@@ -7,15 +7,15 @@
 //
 
 import UIKit
-enum RJLanguage : Int {
+public enum RJLanguage : Int {
     case SimpleChinese
     case English
     case Indonesia
 }
-class RJAPPModel: NSObject {
+public class RJAPPModel: NSObject {
     
     /// 语言
-    class func currentLanguage() -> RJLanguage {
+    public class func currentLanguage() -> RJLanguage {
         let appLanguages = UserDefaults.standard.object(forKey: "AppleLanguages") as! [String];
         let langue       = appLanguages[0]
         if langue.contains("zh-Hans") {
@@ -25,7 +25,7 @@ class RJAPPModel: NSObject {
         }
         return RJLanguage.English
     }
-    class func statusBarHidden() -> Void {
+    public class func statusBarHidden() -> Void {
         UIApplication.shared.setStatusBarHidden(true, with: UIStatusBarAnimation.none)
     }
 }

@@ -15,7 +15,7 @@ extension UIView{
     ///   - radius: 角度
     ///   - borderWidth:边界宽度
     ///   - borderColor: 边界颜色
-    func cornerCutWith(_ radius:CGFloat, _ borderWidth:CGFloat = 0.1, _ borderColor:UIColor = .clear) -> Void {
+    public func cornerCutWith(_ radius:CGFloat, _ borderWidth:CGFloat = 0.1, _ borderColor:UIColor = .clear) -> Void {
         
         let  lineWidth = 2 * borderWidth
         let cutLayer = CAShapeLayer()

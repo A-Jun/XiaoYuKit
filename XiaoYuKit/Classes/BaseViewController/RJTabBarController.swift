@@ -8,9 +8,9 @@
 
 import UIKit
 
-class RJTabBarController: UITabBarController {
+public class RJTabBarController: UITabBarController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
     }

@@ -11,15 +11,15 @@ import UIKit
 let VCBackGorundColor = UIColor(patternImage: UIImage(named: "sport_background")!)
 
 
-enum RJNavBarItemLocaltion :Int {
+public enum RJNavBarItemLocaltion :Int {
     case left_first
     case left_second
     case right_first
     case right_second
 }
 
-class RJBaseViewController: UIViewController {
-    var navBarHidden:Bool {
+public class RJBaseViewController: UIViewController {
+    public var navBarHidden:Bool {
         get{
             return navigationController?.navigationBar.isHidden ?? false
         }
@@ -28,21 +28,21 @@ class RJBaseViewController: UIViewController {
         }
     }
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         addNavBarItemBtn(.left_first, nil, "nav_back", self, #selector(exitViewController), .touchUpInside)
         configureNavigation()
         view.backgroundColor = VCBackGorundColor
     }
-    func addSubview(_ subview:UIView) -> Void {
+    public func addSubview(_ subview:UIView) -> Void {
         view.addSubview(subview);
     }
     
-    func configureNavigation() {
+    public func configureNavigation() {
         
     }
     
-    func navBarTitle(_ title:String? ,_ color:UIColor = .white , _ font:UIFont = RJFontMedium(16)) -> Void {
+    public func navBarTitle(_ title:String? ,_ color:UIColor = .white , _ font:UIFont = RJFontMedium(16)) -> Void {
         guard let _ = self.navigationController else { return  }
         let lable = UILabel()
         lable.text = title
@@ -51,7 +51,7 @@ class RJBaseViewController: UIViewController {
         
         navigationItem.titleView = lable
     }
-    func addNavBarItemBtn(_ localtion:RJNavBarItemLocaltion,_ title:String?,_ image:String?,_ target:Any?,_ action:Selector, _ controlEvents:UIControlEvents) -> Void {
+    public func addNavBarItemBtn(_ localtion:RJNavBarItemLocaltion,_ title:String?,_ image:String?,_ target:Any?,_ action:Selector, _ controlEvents:UIControlEvents) -> Void {
         guard let _ = self.navigationController else { return  }
         let btn = UIButton(type: .custom)
         btn.addTarget(target, action: action, for: controlEvents)
@@ -85,7 +85,7 @@ class RJBaseViewController: UIViewController {
         }
     }
     @objc
-    func exitViewController() -> Void {
+    public func exitViewController() -> Void {
         if self.navigationController != nil {
             navigationController?.popViewController(animated: true)
         }else{

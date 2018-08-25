@@ -20,7 +20,7 @@ public func RJFontBold(_ size:CGFloat) -> UIFont {
     return UIFont.init(name: "PingFang-SC-Semibold", size: CGFloat(size))!
 }
 
-enum OemType :String {
+public enum OemType :String {
     case Orignal     // 酷浪小羽
     case NoBinding   // 没绑定
     case XiaoYu      // 小羽

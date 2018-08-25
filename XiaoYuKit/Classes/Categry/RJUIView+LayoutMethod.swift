@@ -8,8 +8,8 @@
 
 import UIKit
 /// 屏幕尺寸
-let kScreenW = CGFloat(UIScreen.main.bounds.width)
-let kScreenH = CGFloat(UIScreen.main.bounds.height)
+public let kScreenW = CGFloat(UIScreen.main.bounds.width)
+public let kScreenH = CGFloat(UIScreen.main.bounds.height)
 
 
 
@@ -42,7 +42,7 @@ public func kAutoHei(_ height:CGFloat) -> CGFloat {
 
 extension UIView{
     /// x坐标
-    var x : CGFloat{
+    public var x : CGFloat{
         get{
             return frame.origin.x
         }
@@ -52,7 +52,7 @@ extension UIView{
     }
     
     /// Y坐标
-    var y : CGFloat{
+    public var y : CGFloat{
         get{
             return frame.origin.y
         }
@@ -62,7 +62,7 @@ extension UIView{
     }
     
     /// 宽
-    var width : CGFloat{
+    public var width : CGFloat{
         get{
             return frame.size.width
         }
@@ -72,7 +72,7 @@ extension UIView{
     }
     
     /// 高
-    var height : CGFloat{
+    public var height : CGFloat{
         get{
             return frame.size.height
         }
@@ -82,7 +82,7 @@ extension UIView{
     }
     
     /// 尺寸
-    var size   : CGSize {
+    public var size   : CGSize {
         get{
             return frame.size
         }
@@ -92,7 +92,7 @@ extension UIView{
     }
     
     /// 坐标
-    var origin   : CGPoint {
+    public var origin   : CGPoint {
         get{
             return frame.origin
         }
@@ -102,7 +102,7 @@ extension UIView{
     }
    
     /// 中心点 X坐标
-    var centerX   : CGFloat {
+    public var centerX   : CGFloat {
         get{
             return self.center.x
         }
@@ -112,7 +112,7 @@ extension UIView{
     }
     
     /// 中心点 Y坐标
-    var centerY   : CGFloat {
+    public var centerY   : CGFloat {
         get{
             return self.center.y
         }

@@ -9,9 +9,9 @@
 import UIKit
 let navBarTinColor    = UIColor(0x04191e)
 
-class RJNavigationController: UINavigationController {
+public class RJNavigationController: UINavigationController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
         navigationBar.barTintColor = navBarTinColor

@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* XiaoYuKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoYuKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		84A523203D5E17FD7FF75603 /* XiaoYuKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XiaoYuKit.podspec; path = ../XiaoYuKit.podspec; sourceTree = "<group>"; };
-		ABAEF1BCE0A54B473D7A2C8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D30292074DF27F12EF01A914 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		84A523203D5E17FD7FF75603 /* XiaoYuKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XiaoYuKit.podspec; path = ../XiaoYuKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABAEF1BCE0A54B473D7A2C8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D30292074DF27F12EF01A914 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D56E36ECD1F07D5CEEE9461E /* Pods_XiaoYuKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiaoYuKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E535ACBD2D015059E2DF6357 /* Pods-XiaoYuKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoYuKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XiaoYuKit_Tests/Pods-XiaoYuKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F731D8B827D31B7B5187F2E8 /* Pods_XiaoYuKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiaoYuKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
