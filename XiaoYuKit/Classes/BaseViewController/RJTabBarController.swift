@@ -10,13 +10,13 @@ import UIKit
 
 public class RJTabBarController: UITabBarController {
 
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         
     }
     
     
-    public func creatItemsWith(_ viewControllers:[String], _ titles :[String],_ images:[String],_ selectImages:[String]) -> Void {
+    open func creatItemsWith(_ viewControllers:[String], _ titles :[String],_ images:[String],_ selectImages:[String]) -> Void {
         
         for index in 0..<viewControllers.count {
 //            获取命名空间

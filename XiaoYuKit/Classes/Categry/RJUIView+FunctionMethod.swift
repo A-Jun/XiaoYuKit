@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView{
+public extension UIView{
     /// 圆角裁剪
     ///
     /// - Parameters:

@@ -1,5 +1,5 @@
 PODS:
-  - XiaoYuKit (0.1.0)
+  - XiaoYuKit (0.1.2)
 
 DEPENDENCIES:
   - XiaoYuKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  XiaoYuKit: d09988baa66520979898211a5c984f34c99195f4
+  XiaoYuKit: 182ffb1bcdd79b2ed6952d6919ffa400d0dca56f
 
 PODFILE CHECKSUM: c8f6f7428e897ebd15610f8d7763b2d00d9f379b
 

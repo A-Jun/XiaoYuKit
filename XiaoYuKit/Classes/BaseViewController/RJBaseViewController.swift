@@ -18,8 +18,8 @@ public enum RJNavBarItemLocaltion :Int {
     case right_second
 }
 
-public class RJBaseViewController: UIViewController {
-    public var navBarHidden:Bool {
+open class RJBaseViewController: UIViewController {
+    open var navBarHidden:Bool {
         get{
             return navigationController?.navigationBar.isHidden ?? false
         }
@@ -28,21 +28,21 @@ public class RJBaseViewController: UIViewController {
         }
     }
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         addNavBarItemBtn(.left_first, nil, "nav_back", self, #selector(exitViewController), .touchUpInside)
         configureNavigation()
         view.backgroundColor = VCBackGorundColor
     }
-    public func addSubview(_ subview:UIView) -> Void {
+    open func addSubview(_ subview:UIView) -> Void {
         view.addSubview(subview);
     }
     
-    public func configureNavigation() {
+    open func configureNavigation() {
         
     }
     
-    public func navBarTitle(_ title:String? ,_ color:UIColor = .white , _ font:UIFont = RJFontMedium(16)) -> Void {
+    open func navBarTitle(_ title:String? ,_ color:UIColor = .white , _ font:UIFont = RJFontMedium(16)) -> Void {
         guard let _ = self.navigationController else { return  }
         let lable = UILabel()
         lable.text = title
@@ -51,7 +51,7 @@ public class RJBaseViewController: UIViewController {
         
         navigationItem.titleView = lable
     }
-    public func addNavBarItemBtn(_ localtion:RJNavBarItemLocaltion,_ title:String?,_ image:String?,_ target:Any?,_ action:Selector, _ controlEvents:UIControlEvents) -> Void {
+    open func addNavBarItemBtn(_ localtion:RJNavBarItemLocaltion,_ title:String?,_ image:String?,_ target:Any?,_ action:Selector, _ controlEvents:UIControlEvents) -> Void {
         guard let _ = self.navigationController else { return  }
         let btn = UIButton(type: .custom)
         btn.addTarget(target, action: action, for: controlEvents)
@@ -85,7 +85,7 @@ public class RJBaseViewController: UIViewController {
         }
     }
     @objc
-    public func exitViewController() -> Void {
+    open func exitViewController() -> Void {
         if self.navigationController != nil {
             navigationController?.popViewController(animated: true)
         }else{

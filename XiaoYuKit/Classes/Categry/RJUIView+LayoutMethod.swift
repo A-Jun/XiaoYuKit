@@ -40,7 +40,7 @@ public func kAutoHei(_ height:CGFloat) -> CGFloat {
     return height * kSCREEN_HEIGHT_RATIO
 }
 
-extension UIView{
+public extension UIView{
     /// x坐标
     public var x : CGFloat{
         get{

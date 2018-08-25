@@ -8,6 +8,6 @@
 
 import UIKit
 
-class RJTableView: UITableView {
+public class RJTableView: UITableView {
 
 }
