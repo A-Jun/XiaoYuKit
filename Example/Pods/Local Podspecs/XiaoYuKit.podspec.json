@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XiaoYuKit/Classes/**/*"
+  "source_files": "XiaoYuKit/Classes/**/*",
+  "resource_bundles": {
+    "XiaoYuKit": [
+      "XiaoYuKit/Assets/*.png"
+    ]
+  }
 }
