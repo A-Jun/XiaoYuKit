@@ -8,7 +8,7 @@
 import UIKit
 
 public extension Bundle{
-    func localizedString(forKey:String , value :String?,table:String?,targetClass:AnyClass?) -> String {
+    public class func localizedString(forKey:String , value :String?,table:String?,targetClass:AnyClass?) -> String {
         guard let Class = targetClass else { return forKey }
         guard var langue = NSLocale.preferredLanguages.first else { return forKey }
         if langue.contains("zh-Hans") {
