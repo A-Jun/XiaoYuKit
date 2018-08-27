@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0865ED85F5FFB4EA467B9D6A8BF4A405 /* RJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1799D14B2295928A4A415572E3161EC /* RJBaseViewController.swift */; };
+		054251BDE76973D0B14A774F81F8668E /* RJAPPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDEB62E90F64ACE520A27AA32E4A12 /* RJAPPModel.swift */; };
 		142D61DAEC5E835DB2F3288C2FAC683D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		1EFF2226904A2FACBC933481BEF870FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2CB935301E3C425158845B217B0A4910 /* Pods-XiaoYuKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E59E1A819E8FB292C6ACE391E0BD1BDD /* Pods-XiaoYuKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50D6C1611A80AEFC938D5858E41D0A8E /* Pods-XiaoYuKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6918451B83D5274BA265D9E022C85F7A /* Pods-XiaoYuKit_Tests-dummy.m */; };
+		5B4E8667F5CC1A93304B343DA93417AF /* RJUIView+LayoutMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1484AF8A70E8300E0EE2C8BE970F0988 /* RJUIView+LayoutMethod.swift */; };
+		6338EA81E53854076DD7495A4BCFB379 /* RJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2997900E9D97CD228AE15A5E3AC6EE /* RJBaseViewController.swift */; };
+		637BE3C4B60234207543FEE6EF494DE3 /* XiaoYuKit_sport_background@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 37AC7BD490A49F1435AEEEE5978576BB /* XiaoYuKit_sport_background@2x.png */; };
+		6A3AE8A56A5E0F6BBF7991D2F661A13B /* RJNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C40E8778BBFC2FE20E9E6F73198A8B /* RJNavigationController.swift */; };
 		7D3E775B078CA2BD858454322C267086 /* Pods-XiaoYuKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 016B77CD1C327BEA12C453B6E27F6F8F /* Pods-XiaoYuKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8602D7DBC2FA7FD5FACB432E49D97815 /* RJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E4655CDA782599620AA3CA1EBA6E97 /* RJTabBarController.swift */; };
-		904FA72A443807979B4570CD9FB81CEA /* RJUIView+LayoutMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB354718F31628B2C7BFAEFE61778E3 /* RJUIView+LayoutMethod.swift */; };
-		A95937DD4F1FC3D6EC29DDAB8D9B36AC /* RJTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F30223F3816DA22D67FFBC4CD51D6 /* RJTableView.swift */; };
-		B74975A57B8F220DE1E485D70E52421A /* XiaoYuKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5700231CE624868E00B111A77032E5 /* XiaoYuKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB439447F70171C391EFCD0A9212E285 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3036B605CFD82631592021A13FBBD4 /* ReplaceMe.swift */; };
-		C7D078926DE2FB4E616A2558A57F8384 /* RJAPPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB314BFAC432836F0D7088573086F630 /* RJAPPModel.swift */; };
-		CD4CE736BEB944754B981B01BF3A6524 /* RJNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E020BF2CFFBDEB4F90AB65B6DFBD5 /* RJNavigationController.swift */; };
-		D0F2FE0E1EAB31DBE99221BC4078D4A5 /* RJUIView+FunctionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194935C4BAC5131DA8F3F9757DE13D5 /* RJUIView+FunctionMethod.swift */; };
-		D1552C2F67C2ED1182D601FEB648DDB3 /* RJColorSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C8FA23F2E6A3A27FEAACBC869BDC8E /* RJColorSetting.swift */; };
-		D94DCD214865A30E6593F729E6E40EEA /* XiaoYuKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFF646F42338D16BF92F284A808A53D /* XiaoYuKit-dummy.m */; };
+		9041ADA76F8DEE8AC97523077EBD10E2 /* RJUIView+FunctionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F92F254FC6AB06249C173B582B732A9 /* RJUIView+FunctionMethod.swift */; };
+		A32B7F0900877A978C753415887E1163 /* RJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB64A003E39305776A4000FACACD2AF /* RJTabBarController.swift */; };
+		A4530226C59A08107F4BDC9B691AC462 /* XiaoYuKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C23CDE81F03483E3C1B0C5C5A4DF61F /* XiaoYuKit-dummy.m */; };
+		AB1670F3A95E9D7212FD49F153027DD1 /* RJUIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8630FDB98023F79BF266231BB2EDC149 /* RJUIColor+Extension.swift */; };
+		B74975A57B8F220DE1E485D70E52421A /* XiaoYuKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C89ABCD2DE33F19CBB85DD7CC3F639B0 /* XiaoYuKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA1E71CA8CA259929882A526A68BD006 /* RJColorSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC0ECADF04E6DECD3907FAA392643C /* RJColorSetting.swift */; };
+		CA8EF26C85236E319BD0E7938A70E4B2 /* RJGobalSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14369395CD38B4D04CF63B8D907963DB /* RJGobalSetting.swift */; };
 		DB5B062D0892E1A0FDE7459BF7063107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E408A10859F48911C4E105A7C415D41F /* RJGobalSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57432D836C453A0073758547B8E5304B /* RJGobalSetting.swift */; };
-		EA145CB95EDAC4550CC445BA83CE64B7 /* RJUIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44272FC20B1DF5C7833B90F1C61D0B /* RJUIColor+Extension.swift */; };
+		E27E40E7CF927413D1E8A6FEBB261476 /* RJTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86DA36193464EBAA0CBCDA5C6BCC3C0 /* RJTableView.swift */; };
 		EDC9E93B2AE3705D0C5F68E77647F93B /* Pods-XiaoYuKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 926932EA037E5B6C3792C90E72580A6D /* Pods-XiaoYuKit_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -41,50 +41,50 @@
 
 /* Begin PBXFileReference section */
 		016B77CD1C327BEA12C453B6E27F6F8F /* Pods-XiaoYuKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XiaoYuKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		0E8F30223F3816DA22D67FFBC4CD51D6 /* RJTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJTableView.swift; sourceTree = "<group>"; };
-		1DFF646F42338D16BF92F284A808A53D /* XiaoYuKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XiaoYuKit-dummy.m"; sourceTree = "<group>"; };
+		08D622F9EA5DE6283D666A298F9DE21C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0F92F254FC6AB06249C173B582B732A9 /* RJUIView+FunctionMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RJUIView+FunctionMethod.swift"; sourceTree = "<group>"; };
+		14369395CD38B4D04CF63B8D907963DB /* RJGobalSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJGobalSetting.swift; sourceTree = "<group>"; };
+		1484AF8A70E8300E0EE2C8BE970F0988 /* RJUIView+LayoutMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RJUIView+LayoutMethod.swift"; sourceTree = "<group>"; };
 		245A79E5471A428106C58E2E6F1D5662 /* XiaoYuKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XiaoYuKit.framework; path = XiaoYuKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2619E429627CEFD61A356BDCF0C94AC6 /* XiaoYuKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XiaoYuKit.modulemap; sourceTree = "<group>"; };
-		2A5700231CE624868E00B111A77032E5 /* XiaoYuKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XiaoYuKit-umbrella.h"; sourceTree = "<group>"; };
-		2B44272FC20B1DF5C7833B90F1C61D0B /* RJUIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RJUIColor+Extension.swift"; sourceTree = "<group>"; };
-		36E1A5E146C328E85A37213FEA67BDCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2C23CDE81F03483E3C1B0C5C5A4DF61F /* XiaoYuKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XiaoYuKit-dummy.m"; sourceTree = "<group>"; };
+		32FC0ECADF04E6DECD3907FAA392643C /* RJColorSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJColorSetting.swift; sourceTree = "<group>"; };
+		37AC7BD490A49F1435AEEEE5978576BB /* XiaoYuKit_sport_background@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "XiaoYuKit_sport_background@2x.png"; sourceTree = "<group>"; };
 		4922F20196D019C5B6E330D7AE6134DC /* Pods-XiaoYuKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XiaoYuKit_Example.modulemap"; sourceTree = "<group>"; };
-		56E4655CDA782599620AA3CA1EBA6E97 /* RJTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJTabBarController.swift; sourceTree = "<group>"; };
-		57432D836C453A0073758547B8E5304B /* RJGobalSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJGobalSetting.swift; sourceTree = "<group>"; };
-		5CB354718F31628B2C7BFAEFE61778E3 /* RJUIView+LayoutMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RJUIView+LayoutMethod.swift"; sourceTree = "<group>"; };
 		6499FFD9604CA037D4CDF50DCB663304 /* Pods-XiaoYuKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoYuKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67AB12CF82743E5AE1BD40B8CBE6F76C /* XiaoYuKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XiaoYuKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6918451B83D5274BA265D9E022C85F7A /* Pods-XiaoYuKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XiaoYuKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		6B06EA138924636CC75BD64635130F80 /* XiaoYuKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XiaoYuKit-prefix.pch"; sourceTree = "<group>"; };
+		7213248DD06E4F4A461F047D4CBE8CAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76212A75937DBC266D4BCFF8B85255D7 /* Pods-XiaoYuKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XiaoYuKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		78C36EDE505C1607BA8F18F0FF6878E9 /* Pods-XiaoYuKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XiaoYuKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7A90D8985E58FEAEA6FB28D6226FBAC7 /* Pods-XiaoYuKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XiaoYuKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A90D8760AB60D3134D5962C98FE8C62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8B1AFBC1BF5E72839C9D4B3F711E61C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8630FDB98023F79BF266231BB2EDC149 /* RJUIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RJUIColor+Extension.swift"; sourceTree = "<group>"; };
 		8D377E4FD21BC39979C4C27992EEDEBF /* Pods-XiaoYuKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoYuKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9194935C4BAC5131DA8F3F9757DE13D5 /* RJUIView+FunctionMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RJUIView+FunctionMethod.swift"; sourceTree = "<group>"; };
+		8EEDEB62E90F64ACE520A27AA32E4A12 /* RJAPPModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJAPPModel.swift; sourceTree = "<group>"; };
 		926932EA037E5B6C3792C90E72580A6D /* Pods-XiaoYuKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XiaoYuKit_Example-dummy.m"; sourceTree = "<group>"; };
-		93155782074B8537D4BFCBBEC0D927EC /* XiaoYuKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XiaoYuKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9658F7803C354A2045F4C05B5A9024CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9C8FA23F2E6A3A27FEAACBC869BDC8E /* RJColorSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJColorSetting.swift; sourceTree = "<group>"; };
 		AA622F04C168D1052EC1C6B90840C904 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE615973B197346D4E42183B17F5E1B /* Pods-XiaoYuKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoYuKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE5E6FF2CE2F172F86CB8DD3CED4817B /* Pods_XiaoYuKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XiaoYuKit_Tests.framework; path = "Pods-XiaoYuKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1799D14B2295928A4A415572E3161EC /* RJBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJBaseViewController.swift; sourceTree = "<group>"; };
 		B3D4FC5C4265101ED20453037DA99E11 /* Pods-XiaoYuKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XiaoYuKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B914E94317F2A3903F62D9E7A201A334 /* XiaoYuKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XiaoYuKit-prefix.pch"; sourceTree = "<group>"; };
-		BB3E020BF2CFFBDEB4F90AB65B6DFBD5 /* RJNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJNavigationController.swift; sourceTree = "<group>"; };
+		B86DA36193464EBAA0CBCDA5C6BCC3C0 /* RJTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJTableView.swift; sourceTree = "<group>"; };
 		BC5DBAB43001155DE2B8BF2E2882FCF0 /* Pods-XiaoYuKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoYuKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C2A64555F2A1A22CCEFA7FC9EB6BEFF2 /* Pods_XiaoYuKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XiaoYuKit_Example.framework; path = "Pods-XiaoYuKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C40E8778BBFC2FE20E9E6F73198A8B /* RJNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJNavigationController.swift; sourceTree = "<group>"; };
+		C89ABCD2DE33F19CBB85DD7CC3F639B0 /* XiaoYuKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XiaoYuKit-umbrella.h"; sourceTree = "<group>"; };
 		CB006AC659B3EC88C32B2DAE33C8A3EF /* Pods-XiaoYuKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoYuKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD2997900E9D97CD228AE15A5E3AC6EE /* RJBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJBaseViewController.swift; sourceTree = "<group>"; };
 		CD78A0FEE192E069EF41CC19A9FD7420 /* Pods-XiaoYuKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XiaoYuKit_Example-resources.sh"; sourceTree = "<group>"; };
-		CE3036B605CFD82631592021A13FBBD4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = XiaoYuKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		CF4C68011678E732AEAA217BB20AA331 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DFB64A003E39305776A4000FACACD2AF /* RJTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJTabBarController.swift; sourceTree = "<group>"; };
+		E4B059DE269C46AF9BAFC109DAB94C3E /* XiaoYuKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XiaoYuKit.modulemap; sourceTree = "<group>"; };
 		E59E1A819E8FB292C6ACE391E0BD1BDD /* Pods-XiaoYuKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XiaoYuKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E5D0D552774FEDD6763FA69DB3733F64 /* Pods-XiaoYuKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoYuKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EA908EB33AC031F3A18E1E353275429D /* XiaoYuKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XiaoYuKit.xcconfig; sourceTree = "<group>"; };
 		EB0F9399B086F07B83E6CCEC0C6A16DD /* Pods-XiaoYuKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XiaoYuKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F6CFA7FC8705ABDA3040AD4625D28DA4 /* Pods-XiaoYuKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XiaoYuKit_Tests.modulemap"; sourceTree = "<group>"; };
-		FB314BFAC432836F0D7088573086F630 /* RJAPPModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RJAPPModel.swift; sourceTree = "<group>"; };
+		FF08671F57B5F193B8CB3BEF6A625904 /* XiaoYuKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XiaoYuKit.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +115,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01DDF0BBE4B386564C933D39F82F142C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7213248DD06E4F4A461F047D4CBE8CAD /* Info.plist */,
+				E4B059DE269C46AF9BAFC109DAB94C3E /* XiaoYuKit.modulemap */,
+				FF08671F57B5F193B8CB3BEF6A625904 /* XiaoYuKit.xcconfig */,
+				2C23CDE81F03483E3C1B0C5C5A4DF61F /* XiaoYuKit-dummy.m */,
+				6B06EA138924636CC75BD64635130F80 /* XiaoYuKit-prefix.pch */,
+				C89ABCD2DE33F19CBB85DD7CC3F639B0 /* XiaoYuKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XiaoYuKit";
+			sourceTree = "<group>";
+		};
 		03E3FB3EFA8F9A838584817F1A349A8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,26 +139,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		34E4EE1F412DDF3D0D14B6B2CA1437FE /* General */ = {
+			isa = PBXGroup;
+			children = (
+				32FC0ECADF04E6DECD3907FAA392643C /* RJColorSetting.swift */,
+				14369395CD38B4D04CF63B8D907963DB /* RJGobalSetting.swift */,
+			);
+			name = General;
+			path = XiaoYuKit/Classes/General;
+			sourceTree = "<group>";
+		};
 		3B22B2481EA20267747EBD324923C474 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B4BD916C17A952FC64ACECB7E1A6CF6C /* XiaoYuKit */,
+				F630C4F80449C99FA4A24F12B08F2BC1 /* XiaoYuKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		495648978DC8B2D78D4D6E17A43E1CF6 /* Support Files */ = {
+		3FA0617AF838B3C42DC0D2DCAB601ACB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8B1AFBC1BF5E72839C9D4B3F711E61C1 /* Info.plist */,
-				2619E429627CEFD61A356BDCF0C94AC6 /* XiaoYuKit.modulemap */,
-				EA908EB33AC031F3A18E1E353275429D /* XiaoYuKit.xcconfig */,
-				1DFF646F42338D16BF92F284A808A53D /* XiaoYuKit-dummy.m */,
-				B914E94317F2A3903F62D9E7A201A334 /* XiaoYuKit-prefix.pch */,
-				2A5700231CE624868E00B111A77032E5 /* XiaoYuKit-umbrella.h */,
+				8EEDEB62E90F64ACE520A27AA32E4A12 /* RJAPPModel.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XiaoYuKit";
+			name = Model;
+			path = XiaoYuKit/Classes/Model;
 			sourceTree = "<group>";
 		};
 		548AE8AC7481713106EAC2A76CCFC5B1 /* Pods-XiaoYuKit_Tests */ = {
@@ -165,17 +184,6 @@
 			path = "Target Support Files/Pods-XiaoYuKit_Tests";
 			sourceTree = "<group>";
 		};
-		5C55FDC87CE885D368C2D7F0B4365E3B /* Categry */ = {
-			isa = PBXGroup;
-			children = (
-				2B44272FC20B1DF5C7833B90F1C61D0B /* RJUIColor+Extension.swift */,
-				9194935C4BAC5131DA8F3F9757DE13D5 /* RJUIView+FunctionMethod.swift */,
-				5CB354718F31628B2C7BFAEFE61778E3 /* RJUIView+LayoutMethod.swift */,
-			);
-			name = Categry;
-			path = XiaoYuKit/Classes/Categry;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +195,16 @@
 			);
 			sourceTree = "<group>";
 		};
+		836D73318BB34C808B4CB97410BAFC50 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				08D622F9EA5DE6283D666A298F9DE21C /* LICENSE */,
+				CF4C68011678E732AEAA217BB20AA331 /* README.md */,
+				67AB12CF82743E5AE1BD40B8CBE6F76C /* XiaoYuKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		8745874D87428D9418C9C505239D84CB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,41 +214,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8BEF2D8D3CB6C8AC22C65528D71CBDFB /* BaseViewController */ = {
+		9DE87A7E3E819CF9F1415546E6EC7ED0 /* Categry */ = {
 			isa = PBXGroup;
 			children = (
-				B1799D14B2295928A4A415572E3161EC /* RJBaseViewController.swift */,
-				BB3E020BF2CFFBDEB4F90AB65B6DFBD5 /* RJNavigationController.swift */,
-				56E4655CDA782599620AA3CA1EBA6E97 /* RJTabBarController.swift */,
-				0E8F30223F3816DA22D67FFBC4CD51D6 /* RJTableView.swift */,
+				8630FDB98023F79BF266231BB2EDC149 /* RJUIColor+Extension.swift */,
+				0F92F254FC6AB06249C173B582B732A9 /* RJUIView+FunctionMethod.swift */,
+				1484AF8A70E8300E0EE2C8BE970F0988 /* RJUIView+LayoutMethod.swift */,
+			);
+			name = Categry;
+			path = XiaoYuKit/Classes/Categry;
+			sourceTree = "<group>";
+		};
+		A2589731AF2DA12C14CEB6CFD6F6FC04 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD2997900E9D97CD228AE15A5E3AC6EE /* RJBaseViewController.swift */,
+				C4C40E8778BBFC2FE20E9E6F73198A8B /* RJNavigationController.swift */,
+				DFB64A003E39305776A4000FACACD2AF /* RJTabBarController.swift */,
+				B86DA36193464EBAA0CBCDA5C6BCC3C0 /* RJTableView.swift */,
 			);
 			name = BaseViewController;
 			path = XiaoYuKit/Classes/BaseViewController;
 			sourceTree = "<group>";
 		};
-		9D471733567B3EF8737B7B2DB17C41E7 /* General */ = {
+		B4CE733188586A1DEFF11DFF9AD7AE68 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				A9C8FA23F2E6A3A27FEAACBC869BDC8E /* RJColorSetting.swift */,
-				57432D836C453A0073758547B8E5304B /* RJGobalSetting.swift */,
+				37AC7BD490A49F1435AEEEE5978576BB /* XiaoYuKit_sport_background@2x.png */,
 			);
-			name = General;
-			path = XiaoYuKit/Classes/General;
-			sourceTree = "<group>";
-		};
-		B4BD916C17A952FC64ACECB7E1A6CF6C /* XiaoYuKit */ = {
-			isa = PBXGroup;
-			children = (
-				CE3036B605CFD82631592021A13FBBD4 /* ReplaceMe.swift */,
-				8BEF2D8D3CB6C8AC22C65528D71CBDFB /* BaseViewController */,
-				5C55FDC87CE885D368C2D7F0B4365E3B /* Categry */,
-				9D471733567B3EF8737B7B2DB17C41E7 /* General */,
-				E6A5C50A83222E09B4C23FB0B17EB195 /* Model */,
-				E194E12F0FED93E0B826FBABCE09D606 /* Pod */,
-				495648978DC8B2D78D4D6E17A43E1CF6 /* Support Files */,
-			);
-			name = XiaoYuKit;
-			path = ../..;
+			name = Source;
+			path = XiaoYuKit/Classes/Source;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -249,23 +262,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E194E12F0FED93E0B826FBABCE09D606 /* Pod */ = {
+		F630C4F80449C99FA4A24F12B08F2BC1 /* XiaoYuKit */ = {
 			isa = PBXGroup;
 			children = (
-				8A90D8760AB60D3134D5962C98FE8C62 /* LICENSE */,
-				36E1A5E146C328E85A37213FEA67BDCA /* README.md */,
-				93155782074B8537D4BFCBBEC0D927EC /* XiaoYuKit.podspec */,
+				A2589731AF2DA12C14CEB6CFD6F6FC04 /* BaseViewController */,
+				9DE87A7E3E819CF9F1415546E6EC7ED0 /* Categry */,
+				34E4EE1F412DDF3D0D14B6B2CA1437FE /* General */,
+				3FA0617AF838B3C42DC0D2DCAB601ACB /* Model */,
+				836D73318BB34C808B4CB97410BAFC50 /* Pod */,
+				B4CE733188586A1DEFF11DFF9AD7AE68 /* Source */,
+				01DDF0BBE4B386564C933D39F82F142C /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		E6A5C50A83222E09B4C23FB0B17EB195 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				FB314BFAC432836F0D7088573086F630 /* RJAPPModel.swift */,
-			);
-			name = Model;
-			path = XiaoYuKit/Classes/Model;
+			name = XiaoYuKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		FD0ABA05DF98A42BA5FC71F8E405CFDE /* Pods-XiaoYuKit_Example */ = {
@@ -320,7 +329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54A74AFE42B40768FE63449554D92792 /* Build configuration list for PBXNativeTarget "XiaoYuKit" */;
 			buildPhases = (
-				6943225B3CE48D5F67859E4D9E53D4FE /* Sources */,
+				9C8E081E412BDFFAD49AF711DAACB08F /* Sources */,
 				298C3465439EF2EAF714C8D2A438DDE1 /* Frameworks */,
 				2781B7B2BE513A1DF3121E1858B391F8 /* Headers */,
 			);
@@ -405,30 +414,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6943225B3CE48D5F67859E4D9E53D4FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB439447F70171C391EFCD0A9212E285 /* ReplaceMe.swift in Sources */,
-				C7D078926DE2FB4E616A2558A57F8384 /* RJAPPModel.swift in Sources */,
-				0865ED85F5FFB4EA467B9D6A8BF4A405 /* RJBaseViewController.swift in Sources */,
-				D1552C2F67C2ED1182D601FEB648DDB3 /* RJColorSetting.swift in Sources */,
-				E408A10859F48911C4E105A7C415D41F /* RJGobalSetting.swift in Sources */,
-				CD4CE736BEB944754B981B01BF3A6524 /* RJNavigationController.swift in Sources */,
-				8602D7DBC2FA7FD5FACB432E49D97815 /* RJTabBarController.swift in Sources */,
-				A95937DD4F1FC3D6EC29DDAB8D9B36AC /* RJTableView.swift in Sources */,
-				EA145CB95EDAC4550CC445BA83CE64B7 /* RJUIColor+Extension.swift in Sources */,
-				D0F2FE0E1EAB31DBE99221BC4078D4A5 /* RJUIView+FunctionMethod.swift in Sources */,
-				904FA72A443807979B4570CD9FB81CEA /* RJUIView+LayoutMethod.swift in Sources */,
-				D94DCD214865A30E6593F729E6E40EEA /* XiaoYuKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7E6808381296F782975CE72350F15687 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EDC9E93B2AE3705D0C5F68E77647F93B /* Pods-XiaoYuKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8E081E412BDFFAD49AF711DAACB08F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054251BDE76973D0B14A774F81F8668E /* RJAPPModel.swift in Sources */,
+				6338EA81E53854076DD7495A4BCFB379 /* RJBaseViewController.swift in Sources */,
+				BA1E71CA8CA259929882A526A68BD006 /* RJColorSetting.swift in Sources */,
+				CA8EF26C85236E319BD0E7938A70E4B2 /* RJGobalSetting.swift in Sources */,
+				6A3AE8A56A5E0F6BBF7991D2F661A13B /* RJNavigationController.swift in Sources */,
+				A32B7F0900877A978C753415887E1163 /* RJTabBarController.swift in Sources */,
+				E27E40E7CF927413D1E8A6FEBB261476 /* RJTableView.swift in Sources */,
+				AB1670F3A95E9D7212FD49F153027DD1 /* RJUIColor+Extension.swift in Sources */,
+				9041ADA76F8DEE8AC97523077EBD10E2 /* RJUIView+FunctionMethod.swift in Sources */,
+				5B4E8667F5CC1A93304B343DA93417AF /* RJUIView+LayoutMethod.swift in Sources */,
+				A4530226C59A08107F4BDC9B691AC462 /* XiaoYuKit-dummy.m in Sources */,
+				637BE3C4B60234207543FEE6EF494DE3 /* XiaoYuKit_sport_background@2x.png in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,7 +585,7 @@
 		};
 		5DEDD7A8BB8953C574B21DDE9F336E5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA908EB33AC031F3A18E1E353275429D /* XiaoYuKit.xcconfig */;
+			baseConfigurationReference = FF08671F57B5F193B8CB3BEF6A625904 /* XiaoYuKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -698,7 +707,7 @@
 		};
 		ECB21780E13918CA53C4379383938E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA908EB33AC031F3A18E1E353275429D /* XiaoYuKit.xcconfig */;
+			baseConfigurationReference = FF08671F57B5F193B8CB3BEF6A625904 /* XiaoYuKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
