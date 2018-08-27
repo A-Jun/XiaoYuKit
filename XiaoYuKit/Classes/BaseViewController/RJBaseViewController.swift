@@ -8,7 +8,7 @@
 
 import UIKit
 
-let VCBackGorundColor = UIColor(patternImage: UIImage.currentBoudle("XiaoYuKit_sport_background")!)
+let VCBackGorundColor = UIColor(patternImage: UIImage.currentBoudle("XiaoYuKit_sport_background", RJBaseViewController.self)!)
 
 
 public enum RJNavBarItemLocaltion :Int {
@@ -59,7 +59,7 @@ open class RJBaseViewController: UIViewController {
             btn.setTitle(title!, for: .normal)
         }else{
             if image?.count != nil {
-                btn.setImage(UIImage.currentBoudle(image), for: .normal)
+                btn.setImage(UIImage.currentBoudle(image, RJBaseViewController.self), for: .normal)
             }
         }
         btn.sizeToFit()
